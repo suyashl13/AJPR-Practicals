@@ -1,12 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class JPasswordFieldDemo {
+public class JPasswordFieldDemo{
     
     JFrame frame;
     JPasswordField passwordField;
-    
-    JPasswordFieldDemo(){
+
+    JPasswordFieldDemo() {
         frame = new JFrame();
         frame.setDefaultCloseOperation(3);
         frame.setSize(200,200);
@@ -19,7 +19,7 @@ public class JPasswordFieldDemo {
         frame.add(new JButton("OK"));
     }
 
-    public static void main(String[] args) {
+    public static void main(String [] args) {
         new JPasswordFieldDemo();
     }
 }
